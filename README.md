@@ -175,7 +175,7 @@ WHERE  preco BETWEEN 10 AND 50;
 <br>
 
 
-## ⌨ UTILIZANDO O COMANDO INFORMAR
+## ⌨ UTILIZANDO O COMANDO IN
 
 O comando **IN** em **SQL** é utilizado na cláusula **WHERE** para verificar se o valor de uma coluna está presente em uma lista de valores especifica. Ele permite simplificar consultas que, de outra forma, exigiriam várias condições **OR**.
 
