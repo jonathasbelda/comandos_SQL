@@ -28,8 +28,6 @@ Uma restrição de verificação (também referida como uma restrição de verif
 
 <br>
 
-kk
-
 
 ## ⌨ INSERIR COLUNAS QUE IRÁ CONTER DENTRO DA TABELA     
 
@@ -258,7 +256,7 @@ DELETE FROM clientes WHERE cidade = 'São Paulo';
 
 <br>
 
-##⌨ UTILIZANDO O COMANDO LIKE
+## ⌨ UTILIZANDO O COMANDO LIKE
 
 O comando **LIKE** em **SQL** é usado para pesquisar padrões em colunas de texto, permitindo correspondências parciais em vez de apenas buscas exatas por igualdade. Ele utiliza caracteres curinga para especificar os padrões de busca. 
 
