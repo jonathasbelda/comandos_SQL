@@ -1,6 +1,46 @@
 
 # Comandos Básicos de SQL
 
+## O QUE É BANCO DE DADOS?
+Um **banco de dados** é uma coleção organizada de informações estruturadas, normalmente armazenadas eletronicamente em um sistema de computador. É um sistema que permite armazenar, recuperar e manipular dados de maneira eficiente e estruturada, sendo fundamental para diversas aplicações, desde empresas que gerenciam informações de clientes até aplicações científicas e governamentais que lidam com grandes volumes de dados.
+
+<br>
+
+**TIPOS DE BANCO DE DADOS:**
+
+Existem diversos tipos de bancos de dados, cada um projetado para atender a diferentes necessidades e cenários de aplicação. Os principais tipos incluem:
+
+```
+-- Bancos de Dados Relacionais (RDBMS):
+O TIPO MAIS COMUM, ONDE OS DADOS SÃO ORGANIZADOS EM TABELAS COM LINHAS E COLUNAS. EXEMPLOS INCLUEM MYSQL, POSTGRESQL, ORACLE E MICROSOFT SQL SERVER.
+
+-- Bancos de Dados Não Relacionais (NoSQL):
+PROJETADOS PARA LIDAR COM DADOS NÃO ESTRUTURADOS, SEMIESTRUTURADOS OU ALTAMENTE VARIÁVEIS. PODEM SER BASEADOS EM DOCUMENTOS, COLUNAS, GRÁFICOS OU CHAVE-VALOR. EXEMPLOS INCLUEM MONGODB, APACHE CASSANDRA E REDIS.
+
+-- Bancos de Dados de Gráficos:
+PROJETADOS PARA ARMAZENAR E CONSULTAR DADOS RELACIONAIS COMPLEXOS, SENDO EFICAZES PARA ANÁLISES DE REDE E RELAÇÕES ENTRE ENTIDADES. O NEO4J É UM EXEMPLO POPULAR. 
+
+```
+
+**SOFTWARE DE BANCO DE DADOS:**
+
+Existem diversos tipos de bancos de dados, cada um projetado para atender a diferentes necessidades e cenários de aplicação. Os principais tipos incluem:
+
+```
+O software de banco de dados, também chamado de Sistema de Gerenciamento de Banco de Dados (SGBD), é o conjunto de programas que permite criar, gerenciar e acessar os bancos de dados. Exemplos de SGBDs incluem MySQL, PostgreSQL, Oracle, SQL Server, MongoDB e Cassandra. 
+
+```
+
+**IMPORTÂNCIA E BENEFÍCIOS:**
+* Armazenamento e organização: Permite armazenar grandes volumes de dados de forma organizada e estruturada. 
+* Recuperação eficiente: Permite encontrar e acessar informações específicas de maneira rápida e fácil. 
+* Segurança: Protege os dados contra acesso não autorizado e perda. 
+* Integridade dos dados: Garante a precisão e consistência das informações. 
+* Tomada de decisões: Facilita a análise de dados para tomada de decisões informadas. 
+
+
+<br>
+
 ## ⌨ CRIAR UMA TABELA
 O comando **CREATE TABLE** é utilizado para criar uma tabela para o banco de dados:
 
@@ -14,7 +54,7 @@ CREATE TABLE "NOME DA TABELA"
 
 Uma restrição de verificação (também referida como uma restrição de verificação de tabela) é uma regra de banco de dados que especifica os valores permitidos em uma ou mais colunas de cada linha de uma tabela.
 
-
+<br>
 
 **Principais tipos de restrições que podem ser aplicadas.** 
  
