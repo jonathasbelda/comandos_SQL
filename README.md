@@ -28,6 +28,57 @@ Uma restrição de verificação (também referida como uma restrição de verif
 
 <br>
 
+## ⌨ CHAR VARCHAR INT O QUE É?
+
+Em termos de tipos de dados em programação e bancos de dados, **CHAR**, **VARCHAR** e **INT** são usados para definir o tipo de informação que uma variável ou coluna de tabela pode armazenar. **CHAR** e **VARCHAR** são usados para armazenar texto (strings), enquanto **INT** é usado para armazenar números inteiros. 
+
+**CHAR:**
+
+```
+-- Definição: 
+ARMAZENA STRINGS DE COMPRIMENTO FIXO.
+
+-- Comportamento: 
+QUANDO UM VALOR MENOR QUE O COMPRIMENTO DEFINIDO É ARMAZENADO, ELE É PREENCHIDO COM ESPAÇOS EM BRANCO.
+
+-- Uso: 
+ÚTIL QUANDO SE ESPERA QUE TODOS OS VALORES TENHAM O MESMO COMPRIMENTO, COMO CÓDIGOS POSTAIS OU ABREVIAÇÕES DE ESTADOS.
+EXEMPLO: CHAR(10) PODE ARMAZENAR "HELLO ". 
+
+```
+
+**VARCHAR:**
+
+```
+-- Definição: 
+ARMAZENA STRINGS DE COMPRIMENTO VARIÁVEL.
+
+-- Comportamento: 
+OCUPA APENAS O ESPAÇO NECESSÁRIO PARA ARMAZENAR O VALOR, SEM PREENCHIMENTO.
+
+-- Uso: 
+MAIS FLEXÍVEL PARA ARMAZENAR TEXTOS DE TAMANHOS DIFERENTES, COMO NOMES, DESCRIÇÕES OU COMENTÁRIOS.
+EXEMPLO: VARCHAR(255) PODE ARMAZENAR "HELLO" OU "UMA FRASE MUITO LONGA". 
+
+```
+
+**INT:**
+
+```
+-- Definição: 
+ARMAZENA NÚMEROS INTEIROS.
+
+-- Comportamento: 
+NÃO ARMAZENA TEXTO OU NÚMEROS DECIMAIS.
+
+-- Uso: 
+IDEAL PARA ARMAZENAR QUANTIDADES, IDS, IDADES, ETC., ONDE OPERAÇÕES NUMÉRICAS SÃO NECESSÁRIAS.
+EXEMPLO: INT PODE ARMAZENAR 10, 100, -5, ETC. 
+
+```
+
+<br>
+
 
 ## ⌨ INSERIR COLUNAS QUE IRÁ CONTER DENTRO DA TABELA     
 
