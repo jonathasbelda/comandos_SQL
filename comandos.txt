@@ -43,6 +43,50 @@ DATA_NASCIMENTO DATE         { CRIA A COLUNA DATA DE NASCIMENTO }
 ```
 <br>
 
+## ⌨ INSERIR UMA COLUNA EM UMA TABELA JÁ CRIADA USANDO O COMANDO ALTER TABLE
+
+O comando **ALTER TABLE** em **SQL** é usado para modificar a estrutura de uma tabela existente. Ele permite adicionar, excluir ou alterar colunas, restrições e outras propriedades da tabela. Basicamente, permite ajustar o esquema (estrutura) do banco de dados, enquanto o comando UPDATE é usado para modificar os dados dentro da tabela.
+
+**CÓDIGO:**
+
+```
+ALTER TABLE "NOME DA TABELA" { ALTERAR A TABELA }
+ADD "NOME DA COLUNA";        { INSERIR A NOVA COLUNA }
+
+```
+
+**EXEMPLO:**
+
+```
+-- Adicionar uma nova coluna chamada "email" do tipo VARCHAR(100) à tabela "clientes"
+ALTER TABLE clientes
+ADD email VARCHAR(100);
+
+-- Remover a coluna "telefone" da tabela "clientes"
+ALTER TABLE clientes
+DROP COLUMN telefone;
+
+-- Alterar o tipo de dados da coluna "idade" para INT na tabela "clientes"
+ALTER TABLE clientes
+MODIFY COLUMN idade INT;
+
+-- Adicionar uma chave primária à coluna "id" na tabela "clientes"
+ALTER TABLE clientes
+ADD PRIMARY KEY (id);
+
+-- Renomear a tabela "clientes" para "usuarios"
+ALTER TABLE clientes
+RENAME TO usuarios;
+
+-- Alterar o nome de uma coluna já existente em uma tabela 
+EXEC sp_rename 'NOME_DA_TABELA.NOME_DA_COLUNA_ANTIGA','NOME_DA_COLUNA_NOVA','COLUMN';
+
+
+```
+
+<br>
+
+
 ## ⌨ SELECIONAR UMA TABELA
 O comando **SELECT** em bancos de dados SQL serve para consultar e recuperar dados de uma ou mais tabelas.
 
@@ -371,6 +415,8 @@ ORDER BY Nome DESC;
 ```
 
 <br>
+
+
 
 
 
